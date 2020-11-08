@@ -1,0 +1,16 @@
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\SampleAppOne.exe.config
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\SampleAppOne.exe
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\SampleAppOne.pdb
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.AccessControl.dll
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.Permissions.dll
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.Principal.Windows.dll
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.AccessControl.xml
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.Permissions.xml
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\bin\Debug\System.Security.Principal.Windows.xml
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\obj\Debug\SampleAppOne.csprojAssemblyReference.cache
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\obj\Debug\SampleAppOne.csproj.CoreCompileInputs.cache
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\obj\Debug\SampleAppOne.csproj.CopyComplete
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\obj\Debug\SampleAppOne.exe
+C:\Program Files\Learning\Csharp\WhyADO.Net\SampleAppOne\obj\Debug\SampleAppOne.pdb
