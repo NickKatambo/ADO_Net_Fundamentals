@@ -9,23 +9,62 @@ namespace SampleAppOne
 {
     public class ConnectionModel
     {
+        string resultText;
+
         #region Connect Method
         public void Connect(string cnnString)
         {
+            ConnectWithErrors(cnnString);
+            Console.WriteLine(resultText);
+
             // Create SQL Connection object
-            SqlConnection cnn = new SqlConnection(cnnString);
+            // SqlConnection cnn = new SqlConnection(cnnString);
 
             // Open the connection
-            cnn.Open();
+            //cnn.Open();
 
             // Gather connection information
-            string resultText = GetConnectionInformation(cnn);
+            //resultText = GetConnectionInformation(cnn);
 
             // Close the connection
-            cnn.Close();
+            //cnn.Close();
 
             // Dispose of the connection
-            cnn.Dispose();
+            // cnn.Dispose();
+        }
+
+        #region ConnectWithErrors Method
+        public void ConnectWithErrors(string cnnString)
+        {
+            try
+            {
+                // Create SQL connection object
+                using (SqlConnection cnn = new SqlConnection(cnnString))
+                {
+                    // Open the connection
+                    cnn.Open();
+
+                    resultText = GetConnectionInformation(cnn);
+                }
+            }
+            catch (Exception ex)
+            {
+                resultText = ex.ToString();
+            }
+        }
+        #endregion
+
+        public void ConnectUsingBlock(string cnnString)
+        {
+            // Create SQL connection object in using block
+            // for automatic closing and disposing
+            using (SqlConnection cnn = new SqlConnection(cnnString))
+            {
+                // Open the connection
+                cnn.Open();
+
+                resultText = GetConnectionInformation(cnn);
+            }
         }
 
         protected virtual string GetConnectionInformation(SqlConnection cnn)
