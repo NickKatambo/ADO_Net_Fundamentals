@@ -13,9 +13,14 @@ namespace SampleAppOne
         static void Main(string[] args)
         {
             ConnectionStringSettings cnnString = ConfigurationManager.ConnectionStrings["DefaultConnection"];
-            //WriteLine($"Connection String: {cnnString}");
+            WriteLine($"Connection String: {cnnString}");
             ConnectionModel model = new ConnectionModel();
             model.Connect(cnnString.ConnectionString);
+
+            WriteLine("### Command section ###");
+            CommandModel commandModel = new CommandModel();
+            commandModel.GetProductsCountScalar();
+
             ReadKey();
         }
     }
